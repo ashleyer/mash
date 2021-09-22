@@ -1,0 +1,122 @@
+drafts.txt
+
+
+console.log('Hello willCodeForFood!');
+
+// == User Stories/game logic == //
+// When the user clicks begin, the timer should start and the squares should populate with a random color
+
+// When the user clicks on a color: the color should disapear and score should be added or subtracted.
+
+// When the round is over, the scores round and timer should be updated for the user to start over with increased difficulty.
+
+
+//Global Variables
+
+let score = 0;
+
+
+//Functions
+
+const checkValidPoke = (square) => {
+    console.log(square, typeof square)
+    const colors = square.substring(4, square.length-1).split(" ");
+    const blue = parseInt(colors[2])
+    const red = parseInt(colors[0])
+
+    if(blue === 255){
+        score++;
+        console.log(score)
+        $('h1').text('Eric: ' + score);
+    } else if (red > 0) {
+        score *= 4;
+        console.log(score);
+        $('h1').text('Anthony: ' + score);
+    }
+    else {
+        score--;
+        console.log(score)
+        $('h1').text('willCodeForFood: ' + score);
+    }
+
+}
+
+const createSquares = (numSquares) => {
+    for (let i = 0; i < numSquares; i++){
+        const square = $('<div/>');
+
+        applyRandomColor(square);
+        $('.squares').append(square);
+
+    }
+    $('.squares').on('click', handlePoke);
+}
+
+const handlePoke = (e) => {
+
+    console.log(e.target)
+    $(e.target).css('opacity', 0);
+    const color = $(e.target).css('background-color');
+    console.log("I'm now checking my var of color");
+    console.log(color);
+    checkValidPoke(color);
+    
+};
+
+
+const applyRandomColor = (square) => {
+    const randNum = Math.floor(Math.random() * 3) + 1;
+
+    if(randNum === 1) {
+        square.css('background-color', 'red')
+
+    } else if(randNum === 2){
+        square.css('background-color', 'blue')
+
+    }
+    else {
+        square.css('background-color', 'green')
+
+    }
+}
+
+//Event listeners! :)
+
+$('button').on('click', () => {
+
+    console.log('this is working');
+    createSquares(20);
+    
+})
+1:02
+HTML:
+New
+1:02
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="./styles/style.css">
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+  <!-- Main JS -->
+  <script src="./scripts/app.js" defer></script>
+  <title>Poke-A-Square!</title>
+</head>
+<body>
+
+  <header>
+    <h1>scoreboard: 0</h1>
+    <span id="timer">timer: 30s</span>
+    <span id="round">round: 1</span>
+    <button>Begin</button>
+  </header>
+
+  <div class="squares"></div>
+
+</body>
+</html>
