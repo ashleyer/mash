@@ -5,10 +5,11 @@
 
 console.log('it is working');
 
-window.onload =alert("Are you ready? Click PLAY");
+// document.onload = alert("Are you ready? Click PLAY");
     
-    window.onclick=function playMASH() {
     
+    buttonPlay.onclick=function playMASH() {
+       
 
     let job1 = prompt("type in a job");
     console.log("this is box 1 typed" + job1);
