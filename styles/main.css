@@ -1,4 +1,4 @@
-
+/* 
 body{
     font-family: 'Gloria Hallelujah', cursive;
     color: rgb(73, 70, 59);
@@ -66,10 +66,10 @@ P{
         height: 550px;
         text-align: center;
         text-decoration: underline;
-        /* padding-left: 20px;
+        padding-left: 20px;
         padding-top: 10px;
-        padding-bottom: 10px; */
-        /* float: left; */
+        padding-bottom: 10px; 
+        float: left;
 }
 
 #boxI{
@@ -115,7 +115,7 @@ P{
 }
 
 .rightBoxes{
-    /* float: right; */
+    float: right;
     width: 225px;
     font-size: 20px;
     font-weight: 300;
@@ -137,4 +137,4 @@ P{
     height: 250px;
     width:200px;
 } 
-
+ */
