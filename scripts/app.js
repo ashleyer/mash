@@ -67,7 +67,7 @@ function playMASH() {
     console.log('this is box 3 typed' + place3);
     placeArray.push(place3);
     console.log(placeArray);
-    
+
     let jList = document.getElementById("jobList");
     jobArray.forEach((i) => {
         let li = document.createElement("li");
@@ -121,4 +121,4 @@ function playMASH() {
     });
 
 };
-    playMASH()
+   
