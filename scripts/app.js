@@ -4,9 +4,7 @@
 //3 event listeners
 
 console.log('it is working');
-
-// document.onload = alert("Are you ready? Click PLAY");
-    
+//target main tag in html then set element display none, then when press start, switch display to 
     
     buttonPlay.onclick=function playMASH() {
        
