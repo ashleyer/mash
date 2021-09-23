@@ -1,13 +1,13 @@
 
-//1 global variables
-//2 functions
-//3 event listeners
+
 
 console.log('it is working');
 //target main tag in html then set element display none, then when press start, switch display to 
-    
-    buttonPlay.onclick=function playMASH() {
-       
+const blankIntro = document.querySelectorAll('.list');
+blankIntro.style.display = "none";
+
+buttonPlay.onclick = function playMASH() {
+
 
     let job1 = prompt("type in a job");
     console.log("this is box 1 typed" + job1);
@@ -70,7 +70,34 @@ console.log('it is working');
     placeArray.push(place3);
     console.log(placeArray);
 
-    let jList = document.getElementById("jobList");
+    let mashArray = ["Mansion", "Apartment", "Shack", "House"],
+
+//         //i need the code below to be able to access the code above for setting variables, but i want a pause..
+//         alert("Great! Next, before you click 'okay' below, locate the spiral on the main page, and click it! This will give us your special number used to select your results. Then, press Okay here:")
+
+//     alert.onclick = function (img)
+// function waitSec(event) {
+//         var xwSec = event.target;
+//         document.getElementById("demo").innerHTML = "Triggered by a " + x.tagName + " element";
+//     }
+//     alert(e.target);
+
+//     (function () {
+//         var timeToWaitInSeconds = 10;
+
+//         function countdown() {
+//             console.log(timeToWaitInSeconds);
+//             timeToWaitInSeconds -= 1;
+
+//             if (timeToWaitInSeconds > 0) {
+//                 setTimeout(countdown, 1000);
+//             }
+//         }
+
+//         setTimeout(countdown, 1000);
+//     }());
+   
+    jList = document.getElementById("jobList");
     jobArray.forEach((i) => {
         let li = document.createElement("li");
         li.innerText = i;
@@ -94,10 +121,14 @@ console.log('it is working');
         li.innerText = i;
         plaList.appendChild(li);
     });
-    
-    
-    
-    
+    let maList = mashArrayforEach(i);
+    mashArray.forEach((i) => {
+        let li = document.createElement("li");
+        li.innerText = i;
+        maList.appendChild(li);
+    });
+
+
     let randomJob = jobArray[Math.floor(Math.random() * jobArray.length)];
     console.log(randomJob);
     let randomLove = loveArray[Math.floor(Math.random() * loveArray.length)];
@@ -106,15 +137,15 @@ console.log('it is working');
     console.log(randomPet);
     let randomPlace = placeArray[Math.floor(Math.random() * placeArray.length)];
     console.log(randomPlace);
-    
+
     let randomArray = [];
     randomArray.push(randomJob);
     randomArray.push(randomLove);
     randomArray.push(randomPet);
     randomArray.push(randomPlace);
-    
+
     console.log(randomArray);
-    
+
     let randomList = document.getElementById("randList");
     randomArray.forEach((i) => {
         let p = document.createElement("p");
@@ -123,4 +154,8 @@ console.log('it is working');
     });
 
 };
-   
+
+blankIntro.style.display = "block";
+
+// h2.onload.innerHtml = "You can look forward to living in " + randList.li + ", in a " + randMash.li + ", with " + randList.li + "."
+//     + randList.li + "Life will be happy, working as a " + randlist.li + ", with " + randList.li + "as your pet."
