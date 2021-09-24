@@ -1,19 +1,12 @@
 /* 
 body{
-    font-family: 'Gloria Hallelujah', cursive;
-    color: rgb(73, 70, 59);
-    text-transform: uppercase;
-    background-color: #fff; 
+    
+    /* background-color: #fff; 
     background-image: linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px);
-    background-size: 100% 1.2em;
+    background-size: 100% 1.2em; */
 }
 
-h1{
-    text-align: center;
-    font-size: 44px;
-    text-decoration: underline;
-    text-shadow: rgb(49, 160, 77) 20px 0 10px;
-}
+
 
 P{
     text-align: center;
@@ -25,29 +18,21 @@ P{
     font-weight: lighter;
 }
 
-.buttonPlay{
-    font-size: 20px;
-    text-align: center;
-    background-color: #ffaa9f;
-    color: whitesmoke;
-    border-radius: 30%;
-    border-style: dashed;
-    border-color: rgb(56,52,40);
-  }
+.
 
  
 .topBox{
-    padding-left: 30px;
+    /* padding-left: 30px; */
     width: 600px;
-    height: 300px;
-    margin-bottom: 30px;
+    height: 300px; 
+    margin-bottom: 30px; 
 }
 
-.allBoxes{
+/* .allBoxes{
     margin: 0 auto;
     padding: 0;
     color: rgb(56,52,40);
-}
+} */
 
 #lines{
     border-left: 1px solid #ffaa9f;
@@ -62,79 +47,78 @@ P{
 .leftBoxes{
         font-size: 20px;
         font-weight: 300;
-        width: 225px;
-        height: 550px;
+        /* width: 225px; 
+        height: 550px;  */
         text-align: center;
         text-decoration: underline;
-        padding-left: 20px;
+        /* padding-left: 20px;
         padding-top: 10px;
-        padding-bottom: 10px; 
-        float: left;
-}
+        padding-bottom: 10px;  */
+        /* float: left; */
+} 
 
-#boxI{
-    background-color: lightgrey;
-    height: 250px;
-    width: 200px;
-}
+/* #boxI{
+    /* background-color: lightgrey; */
+    /* height: 250px;
+    width: 200px;    */
+} 
 
 #boxII{
-    background-color: lightgrey;
-    height: 250px;
-    width: 200px;
-}
+    /* background-color: lightgrey; */
+    /* height: 250px;
+    width: 200px;   */
+} */
 
-.middleBoxes{
+  .middleBoxes{
     font-size: 26px;
     font-weight: 400;
-    width: 225px;
-    height: 550px;
+    /* width: 225px; 
+    height: 550px;  */
     text-decoration: underline;
-    padding-left: 245px;
+    /* padding-left: 245px;
     padding-top: 10px;
-    padding-bottom: 10px;
-}
+    padding-bottom: 10px;  */
+}  
 
 #middleBox1{
     text-align: center;
     background-color: #ffaa9f;
-    height: 250px;
-    width: 200px;
+    /* height: 250px;
+    width: 200px;   */
 }
 
 #middleBox2{
     text-align: center;
     background-image: 150px 100px;
-    height: 250px;
-    width: 200px;
+    /* height: 250px;
+    width: 200px;  */
 }
 #randList{
     text-decoration: none;
     color: green;
-    line-height: 10px;
+    
 }
 
 .rightBoxes{
-    float: right;
-    width: 225px;
+    /* float: right; 
+     width: 225px;  */
     font-size: 20px;
     font-weight: 300;
     text-align: center;
     text-decoration: underline;
-    padding-left: 575px;
+    /* padding-left: 575px;
     padding-top: 10px;
-    padding-bottom: 10px;
-}
+    padding-bottom: 10px; */
+} 
 
-#boxIII{
-    background-color: lightgrey;
-    height: 250px;
-    width: 200px;
-}
+/* #boxIII{
+    /* background-color: lightgrey; */
+    /* height: 250px;
+    width: 200px;   
+}*/
 
 #boxIV{
-    background-color: lightgrey;
-    height: 250px;
-    width:200px;
-} 
- */
+    /* background-color: lightgrey; */
+    /* height: 250px;
+    width:200px;   
+} */ */

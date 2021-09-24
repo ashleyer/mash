@@ -1,0 +1,36 @@
+
+body{
+text-align: center;
+font-family: 'Gloria Hallelujah', cursive;
+color: rgb(73, 70, 59);
+text-transform: uppercase;
+background-image: url(/Users/ashleyromano/Documents/ashleyromano/sei/projects/git.projectZero---MASH/drafts.jpeg);
+background-size: cover;
+background-color: aliceblue;
+}
+
+#content{
+   
+    font-family: 'Gloria Hallelujah', cursive;
+    color: rgb(73, 70, 59);
+    text-transform: uppercase;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 44px;
+    text-decoration: underline;
+    text-shadow: rgb(49, 160, 77) 20px 0 10px;
+}
+
+buttonPlay{
+    
+    font-size: 20px;
+    text-align: center;
+    background-color: #ffaa9f;
+    color: whitesmoke;
+    border-radius: 30%;
+    border-style: dashed;
+    border-color: rgb(56,52,40);
+  }
