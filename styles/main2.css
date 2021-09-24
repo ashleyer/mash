@@ -2,17 +2,18 @@
 body{
 text-align: center;
 font-family: 'Gloria Hallelujah', cursive;
-color: rgb(73, 70, 59);
+color: rgb(39, 44, 40);
 text-transform: uppercase;
 background-image: url(/Users/ashleyromano/Documents/ashleyromano/sei/projects/git.projectZero---MASH/drafts.jpeg);
 background-size: cover;
-background-color: aliceblue;
+background-color: rgb(189, 252, 169);
 }
+
 
 #content{
    
     font-family: 'Gloria Hallelujah', cursive;
-    color: rgb(73, 70, 59);
+    color: rgb(39, 44, 40);
     text-transform: uppercase;
 }
 
@@ -22,15 +23,50 @@ h1{
     font-size: 44px;
     text-decoration: underline;
     text-shadow: rgb(49, 160, 77) 20px 0 10px;
+    font-weight: 400;
 }
 
-buttonPlay{
+#headline{
+    text-align: center;
+    font-size: 26px;  
+    color:rgb(49, 160, 77);
+    text-shadow: rgb(39, 44, 40) 20px 0 10px;  
+    font-weight: 500;               
+}
+.buttonPlay{
     
-    font-size: 20px;
+    font-size: 27px;
     text-align: center;
     background-color: #ffaa9f;
     color: whitesmoke;
     border-radius: 30%;
     border-style: dashed;
-    border-color: rgb(56,52,40);
+    border-color: rgb(49, 160, 77);
   }
+
+  .col-container {
+    display: table; /* Make the container element behave like a table */
+    width: 100%; /* Set full-width to expand the whole page */
+}
+.col {
+    display: table-cell; /* Make elements inside the container behave like table cells */
+}
+h3{
+font-size: 25px;
+color: rgb(39, 44, 40);
+text-decoration: dashed rgb(49, 160, 77);
+}
+h2{
+    font-size: 28px;
+    color:rgb(49, 160, 77);
+    text-decoration: underline rgb(39, 44, 40);
+    text-shadow: rgb(39, 44, 40) 10px 0 10px; 
+}
+#places #jobs #pets #love{
+    list-style: none;
+    font-size: 24px;
+}
+#middleBox1 #middlebox2 #randList{
+    list-style: none;
+    font-size: 27px;
+}

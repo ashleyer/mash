@@ -61,7 +61,7 @@ playBut.addEventListener("click", function startGame() {
     petArray.push(pet2);
     // console.log(petArray);
 
-    let pet3 = prompt('type in third pet');
+    let pet3 = prompt('type in a third pet');
     // console.log('this is box 3 typed' + pet3);
     petArray.push(pet3);
     // console.log(petArray);
@@ -76,7 +76,7 @@ playBut.addEventListener("click", function startGame() {
     placeArray.push(place2);
     // console.log(placeArray);
 
-    let place3 = prompt('type in third place');
+    let place3 = prompt('type in a third place');
     // console.log('this is box 3 typed' + place3);
     placeArray.push(place3);
     // console.log(placeArray);
