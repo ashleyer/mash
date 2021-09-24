@@ -2,18 +2,18 @@
 body{
 text-align: center;
 font-family: 'Gloria Hallelujah', cursive;
-color: rgb(39, 44, 40);
+color: rgb(125, 128, 126);
 text-transform: uppercase;
 background-image: url(/Users/ashleyromano/Documents/ashleyromano/sei/projects/git.projectZero---MASH/drafts.jpeg);
 background-size: cover;
-background-color: rgb(189, 252, 169);
+background-color: rgba(243, 205, 214, 0.87);
 }
 
 
 #content{
    
     font-family: 'Gloria Hallelujah', cursive;
-    color: rgb(39, 44, 40);
+    color: rgb(125, 128, 126);
     text-transform: uppercase;
 }
 
@@ -21,24 +21,24 @@ background-color: rgb(189, 252, 169);
 h1{
     text-align: center;
     font-size: 44px;
-    text-decoration: underline;
-    text-shadow: rgb(49, 160, 77) 20px 0 10px;
-    font-weight: 400;
+    text-decoration: underline rgb(125, 128, 126);
+    text-shadow: rgb(49, 160, 77) 20px 0 20px;
+    font-weight: 800;
 }
 
 #headline{
     text-align: center;
     font-size: 26px;  
     color:rgb(49, 160, 77);
-    text-shadow: rgb(39, 44, 40) 20px 0 10px;  
-    font-weight: 500;               
+    text-shadow: rgb(125, 128, 126) 10px 0 10px;  
+    font-weight: 800px;              
 }
 .buttonPlay{
-    
-    font-size: 27px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 21px;
     text-align: center;
     background-color: #ffaa9f;
-    color: whitesmoke;
+    color: rgb(125, 128, 126);
     border-radius: 30%;
     border-style: dashed;
     border-color: rgb(49, 160, 77);
@@ -53,14 +53,16 @@ h1{
 }
 h3{
 font-size: 25px;
-color: rgb(39, 44, 40);
-text-decoration: dashed rgb(49, 160, 77);
+color: rgb(125, 128, 126);
+text-decoration: underline rgb(49, 160, 77);
+text-shadow: rgb(125, 128, 126) 10px 0 10px;
+
 }
 h2{
     font-size: 28px;
     color:rgb(49, 160, 77);
-    text-decoration: underline rgb(39, 44, 40);
-    text-shadow: rgb(39, 44, 40) 10px 0 10px; 
+    text-decoration: underline rgb(125, 128, 126);
+    text-shadow: rgb(125, 128, 126) 10px 0 10px; 
 }
 #places #jobs #pets #love{
     list-style: none;
@@ -70,3 +72,6 @@ h2{
     list-style: none;
     font-size: 27px;
 }
+li {
+    list-style-type: none;
+    } 
