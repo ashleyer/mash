@@ -47,10 +47,13 @@ h1{
   .col-container {
     display: table; /* Make the container element behave like a table */
     width: 100%; /* Set full-width to expand the whole page */
+    
 }
 .col {
     display: table-cell; /* Make elements inside the container behave like table cells */
+    
 }
+
 h3{
 font-size: 25px;
 color: rgb(125, 128, 126);
@@ -67,11 +70,24 @@ h2{
 #places #jobs #pets #love{
     list-style: none;
     font-size: 24px;
+   
+    text-align: center;
 }
 #middleBox1 #middlebox2 #randList{
     list-style: none;
     font-size: 27px;
+    align-items: center;
+   
 }
 li {
     list-style-type: none;
+    color:rgb(49, 160, 77);
     } 
+#result{
+    font-weight: 900;
+    align-items: center;
+    color:rgb(49, 160, 77);
+}
+#randList.li{
+    font-size: 30;
+}
