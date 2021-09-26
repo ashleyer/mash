@@ -23,6 +23,9 @@ to everyone in today's wired world.
 
  - notebook paper background (https://www.deviantart.com/neon-fruit/art/notebook-paper-164318153)
  - moving spiral gif (https://mathcurve.com/courbes2d.gb/logarithmic/logarithmic.shtml)
+ 
+ * Zach Ceneviva, Phil Welsh: aided in gitHub Pages Deploy with images
+ * GA Cohort willCodeForFood Instructor Team (Katie McMillin, Eric Fithian, Adonis Martin, Brian Krabec) 
   
 
 

@@ -51,7 +51,7 @@ h1{
 }
 .col {
     display: table-cell; /* Make elements inside the container behave like table cells */
-    
+    width: 40%;
 }
 
 h3{
